@@ -12,4 +12,4 @@ def sum_of_squares(n):
     return total
 
 
-print(sum_of_squares(7))
+print(sum_of_squares(5))
