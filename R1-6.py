@@ -17,4 +17,4 @@ def sum_of_odd_squares(n):
     return total
 
 
-print(sum_of_odd_squares(4))
+print(sum_of_odd_squares(20))
