@@ -1,0 +1,4 @@
+I am writing something
+Just to create a file
+To test my function
+For reversing text
