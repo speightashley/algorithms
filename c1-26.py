@@ -18,6 +18,11 @@ def arrithmatic_checker(a, b, c):
     return results
 
 
+
+def another_function(a, b, c):
+    return a + b + c
+
+
 print(arrithmatic_checker(1, 2, 3))
 print(arrithmatic_checker(2, 2, 4))
 print(arrithmatic_checker(5, 10, 2))
