@@ -2,6 +2,24 @@
 Implement the sub method for the Vector class of Section 2.3.3, so
 that the expression u−v returns a new vector instance representing the
 difference between two vectors.
+
+Implement the neg method for the Vector class of Section 2.3.3, so
+that the expression −v returns a new vector instance whose coordinates
+are all the negated values of the respective coordinates of v
+
+R-2.11 In Section 2.3.3, we note that our Vector class supports a syntax such as
+v = u + [5, 3, 10, −2, 1], in which the sum of a vector and list returns
+a new vector. However, the syntax v = [5, 3, 10, −2, 1] + u is illegal.
+Explain how the Vector class deﬁnition can be revised so that this syntax
+generates a new vector.
+
+R-2.12 Implement the mul method for the Vector class of Section 2.3.3, so
+that the expression v 3 returns a new vector with coordinates that are 3
+times the respective coordinates of v.
+
+R-2.13 Exercise R-2.12 asks for an implementation of mul , for the Vector
+class of Section 2.3.3, to provide support for the syntax v 3. Implement
+the rmul method, to provide additional support for syntax 3 v.
 """
 
 
