@@ -83,7 +83,6 @@ class Vector:
         return result
 
 
-
 my_vector = Vector(3)
 my_other_vector = Vector(3)
 
@@ -102,11 +101,9 @@ for i in range(len(new_vector)):
 
 print(new_vector)
 
-
 print(new_vector * 5)
 print(5 * new_vector)
 
 my_latest_vector = Vector(5)
 
 print(my_latest_vector)
-
