@@ -1,4 +1,1 @@
-I am writing something
-Just to create a file
-To test my function
-For reversing text
+it's a shorter version of a longer documents so I can see a lot more of the words

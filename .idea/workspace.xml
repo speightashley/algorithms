@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5e8f6d1-62a3-4c72-8d25-7cf64f94fff2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/longestcommonroot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/romannumerals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validbrackets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P2-34.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/R2-18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letter_frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/palindromic_letters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/R2-9.py" beforeDir="false" afterPath="$PROJECT_DIR$/R2-9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +133,11 @@
           <url>file://$PROJECT_DIR$/R1-6.py</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/letter_frequency.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
