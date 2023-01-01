@@ -8,7 +8,7 @@ that document
 
 import matplotlib.pyplot as plt
 
-filename = "text.txt"
+filename = "../text.txt"
 
 file1 = open(filename, 'r')
 

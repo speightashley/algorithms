@@ -21,4 +21,4 @@ def read_input(filename):
             return
 
 
-read_input('text.txt')
+read_input('../text.txt')

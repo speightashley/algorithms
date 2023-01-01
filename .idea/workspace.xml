@@ -5,8 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5e8f6d1-62a3-4c72-8d25-7cf64f94fff2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Algorithms/Ciphers/Caesar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithms/sorting/insertion_sort_template.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1-31.py" beforeDir="false" afterPath="$PROJECT_DIR$/p1-31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C-1.13.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C-1.13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-14.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-15.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-17.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-18.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-19.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-20.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-21.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-23.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-24.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C1-25.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C1-25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C2-22.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/C2-22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P2-34.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/P2-34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-10.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-11.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-5.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-6.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-7.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-8.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R1-9.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R1-9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R2-18.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R2-18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R2-4.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R2-4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R2-5.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R2-5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/R2-9.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/R2-9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c1-26.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/c1-26.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p1-29.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/p1-29.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p1-30.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/p1-30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p1-31.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/p1-31.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p1-32.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/p1-32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p1-33.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/p1-33.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sequences/game_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/game_classes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,26 +78,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ashleyspeight/Projects/algorithms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/ashleyspeight/Projects/algorithms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercises" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="R2-5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
@@ -75,7 +116,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/R2-5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercises/R2-5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +171,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/R1-6.py</url>
+          <url>file://$PROJECT_DIR$/exercises/R1-6.py</url>
           <line>13</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -148,6 +189,11 @@
           <url>file://$PROJECT_DIR$/unique_element.py</url>
           <line>3</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algorithms/sorting/insertion_sort_template.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

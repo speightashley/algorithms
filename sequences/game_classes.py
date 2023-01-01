@@ -11,6 +11,7 @@ class GameEntry:
     def get_score(self):
         return self._score
 
+
     def __str__(self):
         return "({0}, {1})".format(self._name, self._score)
 
