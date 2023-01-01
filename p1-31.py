@@ -43,8 +43,8 @@ def number_of_bills(change_required):
     }
     epsilon = 0.01
     while change_required > 0 + epsilon:
-        for k in denominations.keys():  # Cycle through the keys of the dictionary
-            while change_required >= k:  # If the key is still deductible, take it again
+        for k in denominations.keys():  # Cycle through the keys of the dictio
+            while change_required >= k:  # If the key is still deductible
                 if k <= change_required:
                     denominations[k] += 1
                     change_required -= k
@@ -69,6 +69,3 @@ def main():
     denom_due = number_of_bills(change)
     format_values(denom_due)
 
-
-if __name__ == '__main__':
-    main()

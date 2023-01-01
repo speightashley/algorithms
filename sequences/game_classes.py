@@ -1,8 +1,6 @@
-class GameEntry:
-   """
-    Represents one entry of a list of high scores
 
-   """ 
+class GameEntry:
+
     def __init__(self, name, score):
         self._name = name
         self._score = score
@@ -14,7 +12,7 @@ class GameEntry:
         return self._score
 
     def __str__(self):
-        return '({0}, {1})'.format(self._name, self._score)
+        return "({0}, {1})".format(self._name, self._score)
 
 
 class Scoreboard:
