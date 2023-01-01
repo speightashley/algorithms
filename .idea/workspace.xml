@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5e8f6d1-62a3-4c72-8d25-7cf64f94fff2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clean_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital_root.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recursion_practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unique_element.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequences/game_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/sequences/game_classes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
