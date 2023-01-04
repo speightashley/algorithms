@@ -1,6 +1,5 @@
 class Empty(Exception):
     """Error attempting to access an element from an empty container"""
-    pass
 
 
 class ArrayStack:
@@ -13,10 +12,11 @@ class ArrayStack:
         Create an empty stack
         """
         self._data = []  # Non-public list instance
+        self._length = 0
 
     def __len__(self):
         """Return number of Elements in the stack"""
-        return len(self._data)
+        return self._length
 
     def is_empty(self):
         """Return True if the stack is empty"""
@@ -25,6 +25,7 @@ class ArrayStack:
     def push(self, e):
         """ Add an element to the stack"""
         self._data.append(e)  # New item stored at the end of a list
+        self._length += 1
 
     def top(self):
         """Return the last element on the stack"""
@@ -39,4 +40,3 @@ class ArrayStack:
         if self.is_empty():
             raise Empty("Stack is empty")
         return self._data.pop()  # Remove last item from the stack
-
