@@ -1,41 +1,40 @@
 class Empty(Exception):
-    """Error attempting to access an element from an empty container"""
+    """Error attempting to access an element from an empty container."""
 
 
 class ArrayStack:
-    """
-    Lifo stack implementation using Python list as underlying storage
-    """
+    """Lifo stack implementation using Python list as underlying storage."""
 
     def __init__(self):
-        """
-        Create an empty stack
-        """
+        """Create an empty stack."""
         self._data = []  # Non-public list instance
         self._length = 0
 
     def __len__(self):
-        """Return number of Elements in the stack"""
+        """Return number of Elements in the stack."""
         return self._length
 
     def is_empty(self):
-        """Return True if the stack is empty"""
+        """Return True if the stack is empty."""
         return len(self._data) == 0
 
     def push(self, e):
-        """ Add an element to the stack"""
+        """Add an element to the stack."""
         self._data.append(e)  # New item stored at the end of a list
         self._length += 1
 
     def top(self):
-        """Return the last element on the stack"""
+        """Return the last element on the stack."""
         if self.is_empty():
             raise Empty("stack is empty")
         return self._data[-1]  # The last item at the end of the stack
 
     def pop(self):
-        """Remove and return the element form the top of the stack
-        Raise Empty exception if the stack is empty
+        """
+        Remove and return the element form the top of the stack.
+
+        Raise Empty exception if the stack is empty.
+
         """
         if self.is_empty():
             raise Empty("Stack is empty")
