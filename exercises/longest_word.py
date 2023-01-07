@@ -1,0 +1,29 @@
+def high(x):
+    import string
+
+    my_dict = {}
+    score = 1
+    for char in string.ascii_lowercase:
+        my_dict[char] = my_dict.get(char, score)
+        score += 1
+
+    my_list = x.split(" ")
+    print(my_list)
+
+    winning_word = ""
+    winning_word_score = 0
+
+    for word in my_list:
+        word_score = 0
+        for char in word:
+            if char == " ":
+                continue
+            word_score += my_dict[char]
+        if word_score > winning_word_score:
+            winning_word_score = word_score
+            winning_word = word
+
+    return winning_word
+
+
+print(high("man i need a taxi up to ubud"))
