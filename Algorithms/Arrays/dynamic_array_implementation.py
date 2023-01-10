@@ -4,7 +4,7 @@ import ctypes
 class DynamicArray:
     """A dynamic array class akin to a simplified Python List"""
 
-    def __init__(self) -> None:
+    def __init__(self):
         """create an empty array"""
         self._n = 0  # count actual elements
         self._capacity = 1  # Default array capacity
