@@ -1,5 +1,4 @@
 class GameEntry:
-
     def __init__(self, name, score):
         self._name = name
         self._score = score
@@ -22,10 +21,11 @@ class Scoreboard:
 
         All entries are initially NONE
         """
-        self._board = [None] * capacity
-        self._n = 0
+        self._board = [None] * capacity  # Reserve space for future scores
+        self._n = 0  # Number of actual entries
 
     def __getitem__(self, k):
+        """Return entry at index k"""
         return self._board[k]
 
     def __str__(self):
@@ -36,16 +36,19 @@ class Scoreboard:
         """consider adding entry to high scores"""
         score = entry.get_score()
 
-        good = self._n < len(
-            self._board) or score > self._board[-1].get_score()
+        # Does new entry qulify as a high score?
+        # Answer is yes if board not full or score is higher than last entry
+
+        good = self._n < len(self._board) or score > self._board[-1].get_score()
 
         if good:
-            if self._n < len(self._board):
-                self._n += 1
+            if self._n < len(self._board):  # No score drops from list
+                self._n += 1  # So overall number increases
 
+            # shift lower scores rightware to make room for new entry
             j = self._n - 1
 
             while j > 0 and self._board[j - 1].get_score() < score:
-                self._board[j] = self._board[j - 1]
-                j -= 1
-            self._board[j] = entry
+                self._board[j] = self._board[j - 1]  # shift entry from j-1 to j
+                j -= 1  # and decrement j
+            self._board[j] = entry  # when done, add new entry

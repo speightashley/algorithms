@@ -21,4 +21,3 @@ my_sorted_list = insertion_sort(my_list)
 
 print(my_sorted_list)
 print(my_list)
-
