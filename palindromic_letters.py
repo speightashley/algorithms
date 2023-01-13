@@ -1,6 +1,6 @@
 def longestPalindrome(s: str) -> int:
-    """ Calculates what the largest palindrome is
-    in the collection of chars """
+    """Calculates what the largest palindrome is
+    in the collection of chars"""
     empty_dict = {}
     palindromic_letters = 0
     largest_odd = 0
@@ -11,7 +11,6 @@ def longestPalindrome(s: str) -> int:
     for value in empty_dict.values():
         if value % 2 == 0:
             palindromic_letters += value
-        elif value % 2 == 1 and value > largest_odd:
             largest_odd = value
 
     for value in empty_dict.values():
