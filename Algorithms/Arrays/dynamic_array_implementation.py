@@ -17,7 +17,7 @@ class DynamicArray:
     def __getitem__(self, k):
         """Return Element at index k"""
         if not 0 <= k < self._n:
-            raise IndexError("invalid index")
+            raise IndexError('invalid index')
         return self._A[k]  # Retrieve from array
 
     def append(self, obj):
@@ -57,4 +57,4 @@ class DynamicArray:
                 self._A[self._n - 1] = None  # Help the garbage collector
                 self._n -= 1  # We have one less item
                 return  # Exit immediately
-            raise ValueError("value not found")  # Only reached if no match
+            raise ValueError('value not found')  # Only reached if no match
