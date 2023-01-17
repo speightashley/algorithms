@@ -1,0 +1,14 @@
+from python_stack_implementation import ArrayStack
+
+
+def is_matched(raw):
+    """Return True if all HTML tags are properly matched"""
+
+    S = ArrayStack()
+    j = raw.find("<")
+    while j != -1:
+        k = raw.find(">", j + 1)
+        if k == -1:
+            return False
+        if not tag.startswith("/"):
+            S.push(tag)

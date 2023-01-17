@@ -19,11 +19,10 @@ def is_matched(expr: str) -> bool:
         elif c in righty:
             if S.is_empty():
                 return False
-            if righty.index(c) != lefty.index(
-                    S.pop()
-            ):  # righty.index(c) needs to match the lefty index. Order Matters!
+            # righty.index(c)\\needs to match the lefty index. Order Matters!
+            if righty.index(c) != lefty.index(S.pop()):
                 return False
     return S.is_empty()
 
 
-is_matched("([{}]))")
+is_matched("([{}])")
