@@ -1,7 +1,0 @@
-class LinkedQueue:
-    """FIFO queue implementation using a singly linked list for storage"""
-
-    class _Node(self, Data, Next):
-        """Lightweight non public class for a singly linked node"""
-        self._Data = Data
-        self._Next
